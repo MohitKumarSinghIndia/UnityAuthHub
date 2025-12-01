@@ -12,7 +12,7 @@ using UnityEngine.Networking;
 public class FirebaseManager : MonoBehaviour
 {
     [Header("Google API")]
-    private string GoogleAPI = "1037746329680-u3kkiuqs3p0sp2cjajo02s9kmkkp08fo.apps.googleusercontent.com"; // Replace with your actual WebClientID
+    private string GoogleAPI = "503252751802-5raqqfln7h2udcjeoohn5jl5dfi0tpur.apps.googleusercontent.com"; // Replace with your actual WebClientID
     private GoogleSignInConfiguration configuration;
 
     [Header("Firebase Auth")]
