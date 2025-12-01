@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "503252751802",
+    "project_id": "unityauthhub",
+    "storage_bucket": "unityauthhub.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503252751802:android:9fb3c5cc20044970987983",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.UnityAuthHub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503252751802-8en1up72o3a42gusf8js85c1lgnjns46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DefaultCompany.UnityAuthHub",
+            "certificate_hash": "4bc56663c3f0e5c52330a80b62c2500e71a0aae8"
+          }
+        },
+        {
+          "client_id": "503252751802-5raqqfln7h2udcjeoohn5jl5dfi0tpur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAwER6naJOm0nzbNsxblViWGR6PRQhKBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503252751802-5raqqfln7h2udcjeoohn5jl5dfi0tpur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
