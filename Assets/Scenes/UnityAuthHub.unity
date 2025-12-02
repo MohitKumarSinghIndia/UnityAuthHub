@@ -119,17 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &315588542 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6089982715762820497, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
-  m_PrefabInstance: {fileID: 5060946871106729781}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,6 +432,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &204832472416473467 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4966254677485790798, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
+  m_PrefabInstance: {fileID: 3775992177885993501}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!1 &283519107506685403 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5031465802046911214, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
+  m_PrefabInstance: {fileID: 3775992177885993501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1351061604304630436 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6089982715762820497, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
+  m_PrefabInstance: {fileID: 3775992177885993501}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!4 &1503515883518770412
 Transform:
   m_ObjectHideFlags: 0
@@ -504,39 +520,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3442180463787374618 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4966254677485790798, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
-  m_PrefabInstance: {fileID: 5060946871106729781}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
---- !u!1 &4337980619783644319
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2221491151277720451}
-  - component: {fileID: 9032411887061053669}
-  - component: {fileID: 1674697847276984034}
-  m_Layer: 5
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &4708171421064794220 stripped
+--- !u!114 &2492122674028617204 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7253561785236384449, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
-  m_PrefabInstance: {fileID: 5060946871106729781}
+  m_PrefabInstance: {fileID: 3775992177885993501}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -544,7 +531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
---- !u!1001 &5060946871106729781
+--- !u!1001 &3775992177885993501
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -649,6 +636,24 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
+--- !u!1 &4337980619783644319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2221491151277720451}
+  - component: {fileID: 9032411887061053669}
+  - component: {fileID: 1674697847276984034}
+  m_Layer: 5
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!114 &6051532746566688754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -661,11 +666,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4de10d9f3958b464fae0ffea2f8b0416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FirebaseManager
-  UserProfilePic: {fileID: 4708171421064794220}
-  Username: {fileID: 3442180463787374618}
-  UserEmail: {fileID: 315588542}
-  LoginPanel: {fileID: 8899093597865691216}
-  UserPanel: {fileID: 8899093597307592552}
+  GoogleAPI: 
+  UserProfilePic: {fileID: 2492122674028617204}
+  Username: {fileID: 204832472416473467}
+  UserEmail: {fileID: 1351061604304630436}
+  LoginPanel: {fileID: 283519107506685403}
+  UserPanel: {fileID: 8745866646158556487}
 --- !u!1 &7438037302450485505
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,15 +689,10 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &8899093597307592552 stripped
+--- !u!1 &8745866646158556487 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4567660739464481394, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
-  m_PrefabInstance: {fileID: 5060946871106729781}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8899093597865691216 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5031465802046911214, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
-  m_PrefabInstance: {fileID: 5060946871106729781}
+  m_PrefabInstance: {fileID: 3775992177885993501}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &9032411887061053669
 MonoBehaviour:
@@ -717,4 +718,4 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 2221491151277720451}
   - {fileID: 1503515883518770412}
-  - {fileID: 5060946871106729781}
+  - {fileID: 3775992177885993501}
