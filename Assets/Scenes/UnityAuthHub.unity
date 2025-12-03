@@ -539,6 +539,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2295829983286748617, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
+      propertyPath: m_VertexColorAlwaysGammaSpace
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295829983286748617, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5868829971077912967, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -623,6 +631,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 6051532746566688754}
+    - target: {fileID: 5874575020468645099, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoogleLogin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874575020468645099, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FirebaseAuthSystem, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 6498008800407733659, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
       propertyPath: m_Name
       value: AccountUI
@@ -631,11 +647,35 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 6051532746566688754}
+    - target: {fileID: 7400663774247901656, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Logout
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400663774247901656, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FirebaseAuthSystem, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
+--- !u!114 &3775992177885993502 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2560766719908480995, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
+  m_PrefabInstance: {fileID: 3775992177885993501}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!1 &3775992177885993503 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5696767022573936555, guid: 988f9dea6f72d1142833b5f049529f98, type: 3}
+  m_PrefabInstance: {fileID: 3775992177885993501}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4337980619783644319
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,12 +706,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4de10d9f3958b464fae0ffea2f8b0416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FirebaseManager
-  GoogleAPI: 
-  UserProfilePic: {fileID: 2492122674028617204}
-  Username: {fileID: 204832472416473467}
-  UserEmail: {fileID: 1351061604304630436}
+  WebClientID: 
   LoginPanel: {fileID: 283519107506685403}
   UserPanel: {fileID: 8745866646158556487}
+  LoadingSpinner: {fileID: 3775992177885993503}
+  Username: {fileID: 204832472416473467}
+  UserEmail: {fileID: 1351061604304630436}
+  ProfileImage: {fileID: 2492122674028617204}
+  DefaultProfilePic: {fileID: 21300000, guid: 61a8b892fad999140bde08fd665ffb17, type: 3}
+  MessageText: {fileID: 3775992177885993502}
 --- !u!1 &7438037302450485505
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,7 +726,7 @@ GameObject:
   - component: {fileID: 1503515883518770412}
   - component: {fileID: 6051532746566688754}
   m_Layer: 0
-  m_Name: FirebaseManager
+  m_Name: FirebaseAuthSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
